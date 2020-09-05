@@ -1,12 +1,12 @@
 * {
-  margin: o;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 header {
-  width: 100%:
-  padding: 20px o;
+  width: 100%;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -14,8 +14,8 @@ header {
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #848282;
+  border-bottom: 1px solid #848282;
 }
 
 .nav-list-item {
@@ -26,9 +26,9 @@ header {
 
 .main {
   width: 800px;
-  margin: 50px 0;
-  display: flex;  
-  flex-wrap: wrap;  /*--Flexコンテナーの内容の横幅の合計値が、Flexコンテナー自体の横幅を超過する場合の折り返しの方法を指定--*/
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap; /*--Flexコンテナーの内容の横幅の合計値が、Flexコンテナー自体の横幅を超過する場合の折り返しの方法を指定--*/
 }
 
 .box1 {
@@ -36,7 +36,7 @@ header {
   height: 200px;
   background-color: #e6ffe9;
 }
-.box2{
+.box2 {
   width: 200px;
   height: 200px;
   background-color: #cbffd3;
@@ -92,13 +92,14 @@ header {
   background-color: #8eb8ff;
 }
 
-fotter {
+footer {
   width: 100%;
   height: 120px;
   text-align: center;
-  background-color: gray;
+  line-height: 120px;
+  background-color: #848282;
 }
 
 .footer-text {
-  color: white;
+  color: #fff;
 }
